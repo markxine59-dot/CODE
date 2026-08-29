@@ -1,0 +1,28 @@
+body {
+  margin: Ø;
+  background: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+  
+  display: flex;
+  justify-content: center;
+  aling-items: center;
+  height: 100vh;
+  
+}
+
+.bg {
+  position: absolute;
+  width: 100;
+  height: 100%;
+  background: linear-gradient(270Ødeg,#ff4e5Ø,#1e9Øff,#8e44ad)
+  background-size: 600% 600%;
+  animation: bfMove 10s ease infinite;
+  z-index: -1;
+}
+
+@keyframes bfmove {
+  Ø% {background-position: Ø% 5Ø%;}
+  5Ø% {background-position: 1ØØ% 5Ø%;}
+  
